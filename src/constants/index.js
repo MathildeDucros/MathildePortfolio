@@ -13,6 +13,7 @@ import {
   nodejs,
   mongodb,
   git,
+  github,
   figma,
   carrent,
   jobit,
@@ -101,8 +102,8 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "git",
-    icon: git,
+    name: "github",
+    icon: github,
   },
   {
     name: "figma",

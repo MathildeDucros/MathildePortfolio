@@ -41,18 +41,28 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Aperçu.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Je suis une développeuse full{" "}
+        <span className="text-[#cb716c]">MERN </span>
+        Stack passionnée par la création d'applications Web et Mobiles modernes
+        et réactives. Ma spécialité réside dans l'utilisation des technologies
+        <span className="text-[#cb716c]"> M</span>ongoDB,
+        <span className="text-[#cb716c]"> E</span>xpress.js,
+        <span className="text-[#cb716c]"> R</span>eact.js et
+        <span className="text-[#cb716c]"> N</span>ode.js, qui me permettent de
+        concevoir des solutions innovantes et polyvalentes. Mon objectif est de
+        fournir des expériences utilisateur exceptionnelles en utilisant les
+        meilleures pratiques de développement et en restant constamment à
+        l'affût des nouvelles tendances et des améliorations de ces
+        technologies. Je suis enthousiaste à l'idée de collaborer sur des
+        projets stimulants et d'apporter ma contribution au monde numérique en
+        constante évolution.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

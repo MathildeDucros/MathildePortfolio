@@ -13,9 +13,10 @@ import {
   tailwind,
   nodejs,
   mongodb,
-  git,
+  github,
   figma,
-  docker,
+  // vitejs,
+  // nextjs,
   meta,
   starbucks,
   tesla,
@@ -29,11 +30,11 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Aperçu",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Travails",
   },
   {
     id: "contact",
@@ -43,30 +44,30 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Developpeuse",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Native Developpeuse",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Backend Developeuse",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Mobile Developpeuse",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "HTML.5",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "CSS.3",
     icon: css,
   },
   {
@@ -78,19 +79,19 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: "ReactJS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Redux.Toolkit",
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
+    name: "TailwindCSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
+    name: "NodeJS",
     icon: nodejs,
   },
   {
@@ -98,21 +99,25 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
+    name: "ThreeJS",
     icon: threejs,
   },
   {
-    name: "git",
-    icon: git,
+    name: "github",
+    icon: github,
   },
   {
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "Vite",
+  //   icon: vitejs,
+  // },
+  // {
+  //   name: "Next JS 13",
+  //   icon: nextjs,
+  // },
 ];
 
 const experiences = [

@@ -1,4 +1,3 @@
-//Personnal experience
 import {
   mobile,
   backend,
@@ -13,18 +12,17 @@ import {
   tailwind,
   nodejs,
   mongodb,
-  github,
+  git,
   figma,
-  // vitejs,
-  // nextjs,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  LaCapsule,
+  vitejs,
+  nextjs,
+  expo,
+  emploi,
 } from "../assets";
 
 export const navLinks = [
@@ -52,7 +50,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developeuse",
+    title: "Backend Developpeuse",
     icon: backend,
   },
   {
@@ -62,14 +60,14 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML.5",
-    icon: html,
-  },
-  {
-    name: "CSS.3",
-    icon: css,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
   {
     name: "JavaScript",
     icon: javascript,
@@ -83,7 +81,7 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux.Toolkit",
+    name: "ReduxToolkit",
     icon: redux,
   },
   {
@@ -103,76 +101,78 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "github",
-    icon: github,
+    name: "git",
+    icon: git,
   },
   {
     name: "figma",
     icon: figma,
   },
-  // {
-  //   name: "Vite",
-  //   icon: vitejs,
-  // },
-  // {
-  //   name: "Next JS 13",
-  //   icon: nextjs,
-  // },
+  {
+    name: "Expo",
+    icon: expo,
+  },
+  {
+    name: "Vite",
+    icon: vitejs,
+  },
+  {
+    name: "NextJS.13",
+    icon: nextjs,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full Stack Bootcamp",
+    company_name: "La Capsule",
+    icon: LaCapsule,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Janvier 2023 - Mars 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      " Formation lors d'un BootCamp de 3 mois a l'issue de duquel j'ai obtenue mon certification professionnelle de Chef de projet, concepteur et développeur d'applications web et mobile de La Capsule (certifié RNCP - niveau 6), de niveau Bac +3/4.",
+      "Les competences aquises lors de cette formation sont les suivantes:  React Redux · Réact Native · Planification de sprint · Node.js · Mongoose(Logiciel) · Mockup · Jest (Framework de test Javascript) · Ingénierie logicielle Full Stack · Frameworks JavaScript · Express.js · Développement web · Conception de l'expérience utilisateur (UX) · Expo · User Story · React.js · MongoDB.",
+      "Durant cette formation nous avons développé 5 applications Web, 2 application mobile, nous effectué 2 hackatons, et réalisé un MVP, Com-et-Call une application mobile,  en utilisant les méthodologies agiles. ",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Recherche d'emploi",
+    company_name: "Limousin",
+    icon: emploi,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Avril 2023 - Aujourd'hui",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Je suis activement à la recherche d'un emploie, pour construir ma cariére, vers Limoges et ses environs.",
+      "Trés motivée, je saurai vite m'adapter à votre société!",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [

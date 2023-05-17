@@ -21,11 +21,16 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import expo from "./tech/expo.svg";
+import vitejs from "./tech/vitejs.svg";
+import nextjs from "./tech/nextjs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import LaCapsule from "./company/LaCapsule.png";
+import emploi from "./company/emploi.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -36,15 +41,17 @@ export {
   logoColor,
   backend,
   creator,
+  LaCapsule,
+  emploi,
   mobile,
   web,
   github,
+  git,
   menu,
   close,
   css,
   docker,
   figma,
-  git,
   html,
   javascript,
   mongodb,
@@ -61,4 +68,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  expo,
+  vitejs,
+  nextjs,
 };

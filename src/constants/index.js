@@ -223,11 +223,11 @@ const projects = [
       },
       {
         name: "Express",
-        color: "pink-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "Cloudinary",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
     ],
     image: carrent,
@@ -252,7 +252,7 @@ const projects = [
       },
       {
         name: "TailwindCSS",
-        color: "pink-text-gradient",
+        color: "orange-text-gradient",
       },
     ],
     image: jobit,

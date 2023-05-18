@@ -6,11 +6,11 @@ module.exports = {
     extend: {
       colors: {
         // global background color
-        primary: "#CB706C",
+        primary: "#2d2a2a",
         // couleur claire proche du blanc
         secondary: "#ffd3db",
         // couleur principale, celle des cartes
-        tertiary: "#a6a6a6",
+        tertiary: "#CB706C",
         "black-100": "#170A0C",
         "black-200": "#292522",
         "white-100": "#F3F3F3",

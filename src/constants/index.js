@@ -268,7 +268,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "OpenAi",
+        name: "NextJS 13",
         color: "green-text-gradient",
       },
       {

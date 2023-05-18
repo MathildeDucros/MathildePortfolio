@@ -205,67 +205,79 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Dall-E",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Clone de Dall-E, générateur d'image en utilisant une intelligence artificielle",
     tags: [
       {
-        name: "react",
+        name: "MERN-stack",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "OpenAI",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Cloudinary",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/MathildeDucros/dalle-client",
   },
   {
-    name: "Job IT",
+    name: "Codex",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Codex, clone de chatGPT mais centralisé sur les besoins d'un développeur.",
     tags: [
       {
-        name: "react",
+        name: "MERN-stack",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "OpenAi",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ViteJS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/MathildeDucros/Open-AI",
   },
   {
-    name: "Trip Guide",
+    name: "Promptopia(work in progress)",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Mise en pratique de la dernière version de Next JS 13. Promptopia est similaire à Twitter, mais les utilisateurs y postent des promptes pour ChatGPT.",
     tags: [
       {
-        name: "nextjs",
+        name: "MERN-stack",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "OpenAi",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/MathildeDucros/promptopia",
   },
 ];
 

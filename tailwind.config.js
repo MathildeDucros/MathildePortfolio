@@ -5,12 +5,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // global background color
+        // global background color #2d2a2a
         primary: "#2d2a2a",
-        // couleur claire proche du blanc
+        // robe pale couleur claire proche du blanc #ffd3db
         secondary: "#ffd3db",
-        // couleur principale, celle des cartes
-        tertiary: "#CB706C",
+        // gris couleur principale, celle des cartes #a6a6a6"
+        tertiary: "#a6a6a6",
         "black-100": "#170A0C",
         "black-200": "#292522",
         "white-100": "#F3F3F3",
@@ -18,6 +18,7 @@ module.exports = {
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
       },
+
       screens: {
         xs: "450px",
       },
